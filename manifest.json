@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Weekly Planner",
+  "version": "1.0",
+  "description": "Weekly planner helper. Adds 'Roles', 'Key activities' and 'Sharpen the Saw' sections.",
+  "homepage_url": "https://github.com/shamatov/weekly.planner",
+  "icons": {
+    "48": "icons/7-48.png",
+    "96": "icons/7-96-png"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "browser_action": {
+    "default_icon": "icons/7-36.png",
+    "default_title": "Weekly Planner",
+    "default_popup": "popup/planner.html"
+  },
+  "web_accessible_resources": [
+    "icons/7-96.png"
+  ]
+}
